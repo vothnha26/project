@@ -4,16 +4,16 @@ namespace Program
 {
     class Program
     {
-        static void Sum(int a, int b)
+        static void Tong(int a, int b)
         {
-            Console.WriteLine(a - b);
+            Console.WriteLine(a + b);
         }
         static void Main(string[] args)
         {
             int a, b;
             a = Convert.ToInt32(Console.ReadLine());
             b = Convert.ToInt32(Console.ReadLine());
-            Sum(a, b);
+            Tong(a, b);
         }
     }
 }
