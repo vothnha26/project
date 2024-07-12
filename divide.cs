@@ -6,7 +6,7 @@ namespace Program
     {
         static void Divide(int a, int b)
         {
-            Console.WriteLine(a - b);
+            Console.WriteLine(a / b);
         }
         static void Main(string[] args)
         {
