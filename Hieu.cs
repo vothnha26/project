@@ -4,7 +4,7 @@ namespace Program
 {
     class Program
     {
-        static void Hieu(int a, int b)
+        static void Phep_tru(int a, int b)
         {
             Console.WriteLine(a - b);
         }
@@ -13,7 +13,7 @@ namespace Program
             int a, b;
             a = Convert.ToInt32(Console.ReadLine());
             b = Convert.ToInt32(Console.ReadLine());
-            Hieu(a, b);
+            Phep_tru(a, b);
         }
     }
 }
