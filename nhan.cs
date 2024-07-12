@@ -4,7 +4,7 @@ namespace Program
 {
     class Program
     {
-        static void Nhan2so(int a, int b)
+        static void Nhan(int a, int b)
         {
             Console.WriteLine(a * b);
         }
@@ -13,7 +13,7 @@ namespace Program
             int a, b;
             a = Convert.ToInt32(Console.ReadLine());
             b = Convert.ToInt32(Console.ReadLine());
-            Nhan2so(a, b);
+            Nhan(a, b);
         }
     }
 }
