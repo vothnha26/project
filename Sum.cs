@@ -6,7 +6,7 @@ namespace Program
     {
         static void Sum(int a, int b)
         {
-            Console.WriteLine(a + b);
+            Console.WriteLine(a - b);
         }
         static void Main(string[] args)
         {
